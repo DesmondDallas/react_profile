@@ -1,0 +1,129 @@
+.navbar {
+  position: fixed;
+  overflow: hidden;
+  display: flex;
+  transition: top 0.3s;
+  /*position: fixed;*/
+  padding: 0rem 2rem;
+  margin: 0;
+  z-index: 900;
+  align-items: center;
+}
+.navbar li {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar img {
+  width: 30px;
+  margin: 0px;
+}
+
+.navbar li:first-of-type {
+  margin-right: auto;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: red;
+  padding: 14px 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown .dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: red;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.9);
+  z-index: 1;
+}
+.dropdown .a:hover .dropdown-content {
+  position: fixed;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar button.hamburger {
+    float: right;
+    display: block;
+    /*position: absolute;*/
+    right: 2%;
+    top: 1.2%;
+    border: 2px solid red;
+  }
+}
+/* toggle icon */
+button .bar,
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 20px;
+  background-color: white;
+  margin: 6px 0px;
+  transition: 0.4s;
+}
+
+.hamburger {
+  background-color: transparent;
+  opacity: 1;
+  border: none;
+  display: none;
+}
+
+/*
+.right ul li {
+  background-color: red;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}*/
+/*
+.navbar li{
+  list-style: none;
+  display:inline-block;
+  margin:auto;
+}
+
+.navbar li a{
+  font-size: 18px;
+  padding:8px 20px;
+}
+
+.navbar li a:hover{
+  color:red;
+}
+
+.navbar li a:active{
+  background-color: deepskyblue;
+  border-radius: 5px;
+}
+
+
+
+.navbar {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: antiquewhite; 
+}
+
+*//*# sourceMappingURL=Navbar.css.map */

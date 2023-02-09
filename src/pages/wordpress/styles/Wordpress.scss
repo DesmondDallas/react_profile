@@ -1,0 +1,141 @@
+
+@media only screen and (min-width: 768px) {
+  .slide {
+    display: block;
+    top: 30%;
+    left: 30%
+  }
+
+  .slide h2 {
+    font-size: 5em;
+    font-weight: 0px;
+  }
+}
+
+/* carousel paragraph end */
+
+/* contact block start */
+.contact_block {
+  width: 70%;
+  margin: 0 auto;
+  background-color: aquamarine;
+  height: 100%;
+  margin-top: -30px;
+  padding-bottom: 30px
+}
+
+.contact_block_inner {
+  padding: 40px 30px 20px 30px
+}
+
+.contact_block_inner p {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%
+}
+
+/** contact block end **/
+
+/*** change color ***/
+:root {
+  --main-color: rgb(17, 17, 17);
+}
+
+.change_color_wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: auto;
+}
+
+.rating-text {
+  color: rgba(0, 0, 16, 0.8);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0rem 1.5rem 0rem 0rem
+}
+
+.labels-wrapper label {
+  margin-right: 20px
+}
+
+.labels-wrapper label:last-child {
+  margin-right: 00px
+}
+
+.change_color_inner {
+  padding: 8px 8px;
+  color: white;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  color: #1c2126;
+  font-weight: 600;
+}
+
+.labels-wrapper {
+  padding: .2rem;
+  margin: auto;
+  border-radius: 2.6rem;
+  background-color: rgba(0, 0, 16, 0.8);
+}
+
+.change_color_inner label {
+  border-radius: 100em;
+}
+
+.fa-sun,
+.fa-moon {
+  /*border: 3px solid white;*/
+  padding: 5px;
+  border-radius: 90%;
+  font-size: 1.5rem;
+}
+
+.labels-wrapper label {
+  color: white
+}
+
+
+/*** SERVICES SECTION END ***/
+/********* MOBILE END *******/
+
+
+
+@media (min-width: 768px) {
+  .main-inner {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, 300px);
+  }
+
+  .main_container {
+    flex-direction: column;
+  }
+}
+
+.change_color_wrapper {
+  padding: 3em 0px 3em 0px;
+}
+
+/* button*/
+#para {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  padding: 10px 10px;
+  align-items: center;
+  position: static;
+  top: 80px;
+  left: 1110px;
+}
+
+/* button end */
+
+
+
+
+
+
+////**** SEO BOTTOM - ABOUT-INNER *****/
+ 

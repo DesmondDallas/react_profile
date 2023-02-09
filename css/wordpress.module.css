@@ -1,0 +1,59 @@
+.page {
+  height: 100vh;
+  display: grid;
+}
+
+.Contain {
+  background-color: black;
+}
+
+.wordpress_inner {
+  margin-top: 100px;
+  text-align: center;
+}
+.wordpress_inner h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+}
+.wordpress_inner p {
+  color: white;
+  margin-top: 1%;
+}
+
+.button_1 {
+  color: white;
+  background-color: rgb(110, 110, 224);
+  font-size: 1.1rem;
+  padding: 0.5rem 3rem;
+  letter-spacing: 1.1px;
+  border-radius: 3px;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.button_2 {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid red;
+  padding: 1rem 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: white;
+  margin-top: 2em;
+  font-size: 1.1rem;
+}
+
+.button_3 {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid red;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.headSec {
+  background-color: white;
+}/*# sourceMappingURL=wordpress.module.css.map */

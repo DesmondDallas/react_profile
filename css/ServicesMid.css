@@ -1,0 +1,233 @@
+/* services section2 */
+#services_section2 {
+  height: 100vh;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-attachment: fixed;
+  margin-top: 100px;
+}
+
+.services_section2_inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 50px;
+  line-height: 1.6;
+  width: 90%;
+  margin: 0 auto;
+  background-image: url("https://i.postimg.cc/TY5kVGwz/screenshot-png.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-attachment: fixed;
+}
+
+.services_section2_inner .innerLi {
+  display: flex;
+}
+
+.services_section2_inner div:nth-of-type(1) {
+  color: white;
+}
+
+.services_section2_inner div:nth-of-type(3) {
+  margin-bottom: 0%;
+}
+
+#services_section2 p {
+  color: rgb(154, 151, 151);
+  width: 100%;
+  text-align: right;
+  width: 50%;
+  margin-left: auto;
+}
+
+#services_section2 .innerLi:hover {
+  font-size: 1.2rem;
+}
+
+.innerLi::before {
+  position: relative;
+  counter-increment: section;
+  content: "0" counter(section) ". ";
+  color: var(--clr-color-1);
+  left: 0px;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+
+.sec1 {
+  grid-row: 1/2;
+}
+
+.sec2 {
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-left: auto;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.sec2 img {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.img_box .img_box_img {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+#services_section2 .img_box p {
+  text-align: left;
+  width: 100%;
+}
+
+.section2_para {
+  margin-top: auto;
+}
+
+.section2_para hr {
+  width: 30%;
+  background-color: red;
+  height: 1px;
+  border: none;
+  margin-bottom: 4.5%;
+}
+
+.services_section2_inner {
+  width: 95%;
+}
+
+#services_section2 h2 {
+  color: white;
+  font-weight: 100;
+}
+
+#services2_para {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0px 0px 400px;
+  align-items: flex-end;
+}
+
+/* media queries */
+@media only screen and (max-width: 390px) {
+  .services_section2_inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0fr 2.5fr 1fr;
+    padding: 50px;
+  }
+  .services_section2_inner {
+    padding: 10px;
+  }
+  #services_section2 .sec3 {
+    margin-top: 100px;
+  }
+  #services_section2 .sec3 p {
+    width: 100%;
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 391px) {
+  .img_box_img_1 {
+    height: 200px;
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 959px) {
+  .img_box .img_box_img {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sec2 > div:nth-of-type(1) {
+    margin-bottom: 40%;
+  }
+}
+@media only screen and (max-width: 712px) {
+  .sec3 {
+    margin-top: 5%;
+  }
+  .img_box_img_1 {
+    margin-top: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .section2_left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .card_1 {
+    height: 100%;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    -webkit-box-orient: vertical;
+  }
+  .header_right {
+    padding: 0.5em 0.5em 0.5em 0em;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .img_hide {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .section2_left {
+    margin-top: 100px;
+    width: 70%;
+  }
+  .header_section {
+    display: flex;
+    flex-direction: row;
+  }
+  .header_right {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    height: 100vh;
+    margin-top: auto;
+  }
+  .header_left {
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .collapse_text_h4 {
+    color: white;
+    font-weight: 100;
+    text-align: right;
+    margin-top: 100px;
+    margin-bottom: 0%;
+    font-weight: bold;
+  }
+  #section2_para {
+    color: white;
+    width: 100%;
+    text-align: right;
+    width: 50%;
+    margin-left: auto;
+  }
+  .section2_para hr {
+    width: 10%;
+    margin-left: auto;
+    margin-bottom: 2%;
+  }
+}/*# sourceMappingURL=ServicesMid.css.map */

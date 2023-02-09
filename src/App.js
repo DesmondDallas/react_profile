@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import "./App.scss";
+
+import Navbar from "./components/navbar/Navbar";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
+import Wordpress from "./pages/wordpress/Wordpress";
+import Services from "./pages/services/Services";
+import Contact from "./pages/contact/Contact";
+import Blog from "./pages/Blog";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="wordpress" element={<Wordpress />} />
+        <Route path="services" element={<Services />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="blog" element={<Blog />} />
+      </Routes>
     </div>
   );
 }
 
 export default App;
+
+// https://www.freecodecamp.org/news/how-to-use-react-router-version-6/#:~:text=How%20to%20Install%20React%20Router%20To%20install%20React,yarn%20then%20use%20this%20command%3A%20yarn%20add%20react-router-dom%406.
