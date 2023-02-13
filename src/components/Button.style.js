@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
 export const Button = styled.button`
-  width: 200px;
-  height: 50px;
+  display: inline-block;
   background-color: ${(props) => props.backgroundColor};
   color: white;
+  padding: 10px 18px;
+  width: 40%;
+  border-radius: 10px;
 
   &:hover {
-    background-color: coral;
-    border: 5px solid white;
+    background-color: red;
   }
 
   &:hover {
@@ -18,9 +19,11 @@ export const Button = styled.button`
   }
 `;
 
+
 export const ButtonLabel = styled.label`
-  font-size: 25px;
-  color: blue;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
 `;
 
 

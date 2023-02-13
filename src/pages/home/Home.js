@@ -5,19 +5,34 @@ function Home() {
   return (
     <div className="main_container">
       <div className="home_paragraph">
-          <p className="anim1">
-            <span className="home_title1">Hey There!<br />
-              <div className="home_title2">I'm Desmond<br /></div><br />
-            </span>
-            <span className="home_title_text">
-              Freelance Web developer<br />Passionate about bringing<br />
-              ideas to reality though web<br/> development</span>
-          </p>
-          <div className="t_width">
-            <button>Email</button>
-            <button>LinkedIn</button>
+        <div className="anim1">
+          <div>
+            <div>
+              <span>
+                <p>Hey There!</p>
+              </span>
             </div>
+            <div>
+              <span>
+                <h2>I'm Desmond Test</h2>
+              </span>
+            </div>
+          </div>
+
+          <div className="home_title_text">
+            <p>
+              Freelance Web developer Passionate about bringing ideas to reality
+              though web development Freelance Web developer Passionate about
+              bringing ideas to reality though web development
+            </p>
+          </div>
         </div>
+
+        <div className="home_button">
+          <button>Email</button>
+          <button>LinkedIn</button>
+        </div>
+      </div>
       <div className="main_container-inner">
         <div className="logo_wrapper">
           <img

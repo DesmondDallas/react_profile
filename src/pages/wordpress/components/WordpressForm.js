@@ -127,7 +127,7 @@ function WordpressForm() {
               <p classNameName={WordMod.mod}>view the archive</p>
             </div>
 
-            <Button backgroundColor="red">
+            <Button>
               <ButtonLabel>Click this Button</ButtonLabel>
             </Button>
 
