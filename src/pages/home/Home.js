@@ -14,7 +14,7 @@ function Home() {
             </div>
             <div>
               <span>
-                <h2>I'm Desmond Test 2</h2>
+                <h2>I'm Desmond</h2>
               </span>
             </div>
           </div>
