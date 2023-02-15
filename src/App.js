@@ -15,11 +15,11 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="wordpress" element={<Wordpress />} />
-        <Route path="services" element={<Services />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="blog" element={<Blog />} />
+        <Route exact path="about" element={<About />} />
+        <Route exact path="wordpress" element={<Wordpress />} />
+        <Route exact path="services" element={<Services />} />
+        <Route exact path="contact" element={<Contact />} />
+        <Route exact path="blog" element={<Blog />} />
       </Routes>
     </div>
   );
