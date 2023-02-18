@@ -1,5 +1,7 @@
 //import "../wordpress/Wordpress.scss";
 import "../styles/wordpress_bottom.scss";
+// style for button
+import { Button, ButtonLabel } from "../../../components/Button.style";
 
 function WordpressMain() {
   return (
@@ -19,7 +21,9 @@ function WordpressMain() {
             Perhaps you need an effective digital marketing or a unique social
             media campaign?
           </p>
-          <button id="myBtn">Ready Lets Go</button>
+          <Button>
+            <ButtonLabel>Ready Let's go</ButtonLabel>
+          </Button>
         </div>
       </div>
 
@@ -52,9 +56,9 @@ function WordpressMain() {
 
             <div class="box_image box_image2">
               <div>
-              <h4>PPC</h4>
+                <h4>PPC</h4>
                 <i class="fa-solid fa-user"></i>
-                </div>
+              </div>
               <div className="card_p">
                 <p>
                   Our approach to website design is to create a website that

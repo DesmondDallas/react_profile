@@ -320,7 +320,7 @@
     color: rgba(255, 255, 255, 0.2);
   }
   .page_skills_inner_right,
-.page_skills_left_inner {
+  .page_skills_left_inner {
     width: 90%;
     margin: 0 auto;
   }

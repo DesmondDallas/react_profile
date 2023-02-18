@@ -3,6 +3,7 @@ import { Container } from "../../../components/Container.style";
 import WordMod from "../styles/wordpress.module.scss";
 import "../../../styles/global/wordpress.Form.scss";
 
+import { Link } from 'react-router-dom';
 
 function WordpressForm() {
   return (
@@ -46,9 +47,9 @@ function WordpressForm() {
                 </div>
 
                 <div class="row100">
-                  <div class="inputBox">
-                    <input type="submit" value="send" />
-                  </div>
+                  <Button>
+                    <ButtonLabel>Send</ButtonLabel>
+                  </Button>
                 </div>
               </div>
             </form>
@@ -80,29 +81,29 @@ function WordpressForm() {
               </div>
               <ul class="sci">
                 <li>
-                  <a href="#">
+                  <Link>
                     <i class="fa-brands fa-youtube"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i class="fa-brands fa-instagram"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i class="fa-brands fa-tiktok"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i class="fa-brands fa-twitter"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i class="fa-brands fa-linkedin"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -117,26 +118,6 @@ function WordpressForm() {
           </div>
         </div>
       </div>
-
-
-      <Container backgroundColor="#1a1a1a" classNameName={WordMod.page}>
-        <div className="page">
-          <div className={WordMod.Contain}>
-            <div classNameName="wordpress_inner">
-              <h1>Wordpress Projects</h1>
-              <p classNameName={WordMod.mod}>view the archive</p>
-            </div>
-
-            <Button>
-              <ButtonLabel>Click this Button</ButtonLabel>
-            </Button>
-
-            <Button backgroundColor="Violet"> Click this Button</Button>
-
-            <Button classNameName={WordMod.button_5}>button2</Button>
-          </div>
-        </div>
-      </Container>
     </div>
   );
 }

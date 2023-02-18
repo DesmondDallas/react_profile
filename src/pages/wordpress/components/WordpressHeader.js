@@ -9,7 +9,7 @@ const WordpressHeader = () => {
     //className={WordMod.headSec}
     <div id="header_section">
       <div class="header_section_left">
-        <h1>Search Engine Optimisation</h1>
+        <h1>Desmond Dallas</h1>
         <h3>Stoke-on-Trent</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
@@ -17,18 +17,14 @@ const WordpressHeader = () => {
           maxime optio ducimus hic recusandae perspiciatis dolorum minima, sint
           officia.
         </p>
-        <Button backgroundColor="red" href=
-        "https://www.facebook.com">
-              <ButtonLabel>Click this Button</ButtonLabel>
-            </Button>
-        <a class="button_1" href="contact.html">
-          Contact Me
-        </a>
+        <Button>
+          <a href="https://www.facebook.com">
+            <ButtonLabel>Contact Me</ButtonLabel>
+          </a>
+        </Button>
       </div>
-
     </div>
   );
 };
 
-
-export default WordpressHeader
+export default WordpressHeader;

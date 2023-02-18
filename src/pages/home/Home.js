@@ -5,22 +5,22 @@ function Home() {
   return (
     <div className="main_container">
       <div className="home_paragraph">
-        <div className="anim1">
+        <div>
           <div>
             <div>
-              <span>
-                <p>Hey There!</p>
+              <span className="anim1">
+                <h4>Hey There!</h4>
               </span>
             </div>
-            <div>
-              <span>
+            <div className="collapse_text">
+              <span className="anim1">
                 <h2>I'm Desmond</h2>
               </span>
             </div>
           </div>
 
-          <div className="home_title_text">
-            <p>
+          <div className="home_title_text anim2">
+            <p className="anim3">
               Freelance Web developer Passionate about bringing ideas to reality
               though web development Freelance Web developer Passionate about
               bringing ideas to reality though web development

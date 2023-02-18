@@ -41,16 +41,19 @@ function Contact() {
             <a href="mailto:djon@hotmail.com">djon@hotmail.com</a>
           </p>
         </div>
-          <br/>
+        <br />
         <div class="form_middle_inner">
           <p class="anim2">101 Bridge Lane</p>
-        </div><br/>
+        </div>
+        <br />
         <div class="form_middle_inner">
           <p class="anim3">Stoke-on-Trent</p>
-        </div><br/>
+        </div>
+        <br />
         <div class="form_middle_inner">
           <p class="anim4">LG1 8PD</p>
-        </div><br/>
+        </div>
+        <br />
         <div class="form_middle_inner">
           <p class="anim5">
             <a href="tel:0786545245">0786545245</a>

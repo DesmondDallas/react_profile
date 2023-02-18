@@ -1,4 +1,5 @@
 import "../Services.scss";
+import { Button, ButtonLabel } from "../../../../components/Button.style";
 
 function Serve() {
   return (
@@ -21,9 +22,11 @@ function Serve() {
               dolorum minima, sint officia.
             </p>
           </div>
-          <button className="button_1" type="button">
-            Get Started
-          </button>
+          <Button>
+          <a href="https://www.facebook.com">
+            <ButtonLabel>Get started</ButtonLabel>
+          </a>
+        </Button>
         </div>
       </div>
 

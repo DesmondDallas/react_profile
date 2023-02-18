@@ -4,6 +4,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #212426;
+  margin: 0;
+  width: 100vw;
+  font-size: 16px;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow-x: hidden !important;
 }
 
 code {
@@ -42,14 +47,6 @@ li {
   --clr-button-color: rgb(232, 73, 19);
   --clr-font-color: rgb(232, 73, 19);
   --clr-form-input-color: rgba(41, 38, 38, 0.7);
-}
-
-body {
-  margin: 0;
-  width: 100vw;
-  font-size: 16px;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  overflow-x: hidden !important;
 }
 
 a {

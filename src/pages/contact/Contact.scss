@@ -152,14 +152,13 @@ input[type=submit]:hover {
   color: red;
   transition: .3s
 }
-
+// maybe not needed
 .form_middle_inner {
   display: inline-block;
   overflow: hidden;
 }
 
 /* fade in text */
-
 .form_middle_inner .anim1 {
   -webkit-animation: fadein 2s;
   -moz-animation: fadein 2s;

@@ -7,9 +7,12 @@
   padding: 2em;
 }
 
-.home_paragraph .anim1 {
-  margin-top: 5%;
+.home_paragraph {
   width: 30%;
+}
+
+.home_paragraph div:first-of-type {
+  margin-top: 10%;
 }
 
 .home_paragraph div:nth-of-type(2) {
@@ -27,6 +30,10 @@
 
 .home_title_text p {
   font-size: 1rem
+}
+
+.home_paragraph h4 {
+color: var(--clr-color-1);
 }
 
 .home_paragraph button {
@@ -90,12 +97,17 @@
 
 
 /* fade in text */
-.logo_wrapper h1 {
+
+.logo_wrapper h1, .home_paragraph h2 {
   -webkit-animation: fadein 2s;
   -moz-animation: fadein 2s;
   -ms-animation: fadein 2s;
   -o-animation: fadein 2s;
   animation: fadein 2s;
+}
+
+.anim2 {
+  display: inline;
 }
 
 @keyframes fadein {

@@ -5,35 +5,40 @@
   padding: 2em;
 }
 
-.home_title2 {
-  font-size: 30px;
+.home_paragraph {
+  width: 30%;
 }
 
-.home_paragraph p {
+.home_paragraph div:first-of-type {
+  margin-top: 10%;
+}
+
+.home_paragraph div:nth-of-type(2) {
+  font-size: 2rem;
+}
+
+.home_paragraph div {
   text-align: left;
   line-height: 1.3;
 }
 
 .home_title_text {
-  margin-bottom: 2em;
+  margin-top: 20px;
 }
 
-.p_no_break {
-  color: --clr-color-1;
+.home_title_text p {
+  font-size: 1rem;
+}
+
+.home_paragraph h4 {
+  color: var(--clr-color-1);
 }
 
 .home_paragraph button {
   padding: 5px 10px 0px 0px;
-  height: 30px;
   background-color: transparent;
   color: var(--clr-color-1);
   border: none;
-  font-size: 1em;
-}
-
-.t_width {
-  display: flex;
-  margin-top: 1em;
 }
 
 #header-image {
@@ -85,12 +90,16 @@
 }
 
 /* fade in text */
-.logo_wrapper h1 {
+.logo_wrapper h1, .home_paragraph h2 {
   -webkit-animation: fadein 2s;
   -moz-animation: fadein 2s;
   -ms-animation: fadein 2s;
   -o-animation: fadein 2s;
   animation: fadein 2s;
+}
+
+.anim2 {
+  display: inline;
 }
 
 @keyframes fadein {
@@ -254,7 +263,7 @@ input::placeholder {
 /*****************/
 @media screen and (min-width: 450px) {
   .logo_wrapper,
-h1 {
+  h1 {
     font-size: 1.5rem;
   }
 }

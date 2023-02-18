@@ -576,6 +576,17 @@ i.fa-js {
   }
 }
 
+// mobile - background
+@media only screen and (max-width: 667px) {
+  .gallery-bg1 {
+    background-position: -330px 0px;
+  }
+
+  .gallery-bg2 {
+    background-position: -330px 0px;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .page_skills_left_title::before {
     display: flex;
@@ -644,6 +655,8 @@ i.fa-js {
     grid-column: 3 / 5;
     grid-row: 5 / 6;
   }
+
+  
 }
 
 
