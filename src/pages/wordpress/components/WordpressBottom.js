@@ -8,7 +8,7 @@ function WordpressMain() {
     <div>
       <div id="seo_about">
         <div class="seo_about_inner">
-          <h4>GOT A PROJECT IN MIND</h4>
+          <h1>Got a Project In Mind</h1>
           <p>Let's get started</p>
         </div>
         <div>
