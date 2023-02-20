@@ -187,14 +187,14 @@ function About() {
 
         <div class="gallery-bg2">
           <div>
-            <i class="fa-solid fa-blog"></i>
+            <i class="fa-solid fa-blog hide"></i>
           </div>
           <p>Blog</p>
         </div>
 
         <div class="gallery-bg1">
           <div>
-            <i class="fa-solid fa-file-code"></i>
+            <i class="fa-solid fa-file-code hide"></i>
           </div>
           <p>HTML & CSS</p>
           <div class="text-block">
