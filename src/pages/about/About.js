@@ -26,29 +26,32 @@ function About() {
                 </p>
               </div>
               <div class="about_top_menu_inner">
-                <ul>
-                  <li class="numbered_heading">
-                    <a href="https://study.com/academy/lesson/how-to-write-a-program-coding-testing-debugging.html" data-info="CTP" class="about-contact-button">
-                      Resume
-                    </a>
-                  </li>
-                </ul>
+                <li class="numbered_heading">
+                  <a
+                    href="https://study.com/academy/lesson/how-to-write-a-program-coding-testing-debugging.html"
+                    data-info="CTP"
+                    class="about-contact-button"
+                  >
+                    Resume
+                  </a>
+                </li>
               </div>
               <div>
-                <ul>
-                  <li class="numbered_heading">
-                    <a href="https://study.com/academy/lesson/how-to-write-a-program-coding-testing-debugging.html">Portfolio</a>
-                  </li>
-                </ul>
+                <li class="numbered_heading">
+                  <a href="https://study.com/academy/lesson/how-to-write-a-program-coding-testing-debugging.html">
+                    Portfolio
+                  </a>
+                </li>
               </div>
               <div>
-                <ul>
-                  <li class="numbered_heading">
-                    <a href="https://study.com/academy/lesson/how-to-write-a-program-coding-testing-debugging.html" id="modalBtn">
-                      Video
-                    </a>
-                  </li>
-                </ul>
+                <li class="numbered_heading">
+                  <a
+                    href="https://study.com/academy/lesson/how-to-write-a-program-coding-testing-debugging.html"
+                    id="modalBtn"
+                  >
+                    Video
+                  </a>
+                </li>
               </div>
             </div>
           </div>
@@ -69,21 +72,21 @@ function About() {
               ></iframe>
             </div>
           </div>
-        </div>
 
-        <div class="about_bottom_content">
-          <p>Freelancer Available for hire</p>
-          <div>
-            <ul>
-              <li>
-                <span>T:</span> +44 7485 673802
-              </li>
-              <li class="mail">
-                <a href="mailto:dallas.desmond1@gmail.com">
-                  E: <span>Web.Developer@gmail.com</span>
-                </a>
-              </li>
-            </ul>
+          <div class="about_bottom_content">
+            <p>Freelancer Available for hire</p>
+            <div>
+              <ul>
+                <li>
+                  <span>T:</span> +44 7485 673802
+                </li>
+                <li class="mail">
+                  <a href="mailto:dallas.desmond1@gmail.com">
+                    E: <span>Web.Developer@gmail.com</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -176,9 +179,11 @@ function About() {
             <div>
               <i class="fa-brands fa-wordpress"></i>
             </div>
-            <a href="https://study.com/academy/lesson/how-to-write-a-program-coding-testing-debugging.html">Wordpress Projects</a>
+            <a href="https://study.com/academy/lesson/how-to-write-a-program-coding-testing-debugging.html">
+              Wordpress Projects
+            </a>
             <div class="text-block">
-              <span class="animation-text">  
+              <span class="animation-text">
                 <p>The Art of Code</p>
               </span>
             </div>
