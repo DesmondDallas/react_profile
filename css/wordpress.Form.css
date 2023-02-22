@@ -133,11 +133,13 @@
 .info .fa-solid {
   font-size: 20px;
 }
-.info a {
-  color: white;
+.info p, .info a {
+  color: var(--clr-color-1);
+}
+.info .sci i {
+  color: rgba(255, 255, 255, 0.5);
 }
 .info .sci {
-  margin-top: 10px;
   display: flex;
 }
 .info .fa-brands {

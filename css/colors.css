@@ -1,0 +1,12 @@
+:root {
+  --clr-color-1: rgb(8, 253, 216);
+  --clr-color-red: rgb(255, 0, 0);
+  --clr-blackish: rgb(16, 19, 19);
+  --clr-pink: rgb(13, 17, 19);
+  --clr-nav: rgb(17, 119, 150);
+  --clr-grey: rgba(243, 243, 243, 0.555);
+  --clr-secondary-color: rgb(53, 66, 74);
+  --clr-button-color: rgb(232, 73, 19);
+  --clr-font-color: rgb(232, 73, 19);
+  --clr-form-input-color: rgba(41, 38, 38, 0.7);
+}/*# sourceMappingURL=Colors.css.map */

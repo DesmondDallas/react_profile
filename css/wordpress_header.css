@@ -1,9 +1,15 @@
+.header_section_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 #header_section {
   padding: 20px;
   min-height: 100vh;
   background-color: black;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -16,38 +22,19 @@
   background-attachment: fixed;
   background-image: url("/Images/hoodie2.jpg");
 }
-
-.header_section_left {
-  width: 90%;
+#header_section .header_section_left {
+  width: 100%;
   color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  line-height: 1.666666666;
+  margin-top: auto;
 }
-
-.header_section_left p {
-  color: white;
-}
-
 #header_section h1 {
-  color: white;
-  font-size: 3rem;
-  margin-bottom: 0px;
+  font-size: 2rem;
   line-height: 1.2;
 }
-
 #header_section p {
   margin-top: 20px;
   line-height: 1.6;
-  width: 70%;
-}
-
-.button_1 {
-  padding: 5px 0px;
-  width: 40%;
-  color: white;
-  background-color: red;
+  width: 100%;
 }
 
 .items {
@@ -59,8 +46,6 @@
   #header_section {
     min-height: 100vh;
     background-color: black;
-    display: flex;
-    flex-direction: row;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -70,12 +55,14 @@
     background-image: url("/Images/hoodie2.jpg");
     padding: 20px;
   }
-  #header_section h1 {
+  .header_section_left {
+    max-width: 40%;
+    margin-top: 0px !important;
+  }
+  .header_section_left h1 {
     font-size: 3.5rem;
   }
-  .header_section_left {
-    color: white;
-    width: 40%;
-    line-height: 1.666666666;
+  .header_section_left p {
+    max-width: 80%;
   }
 }/*# sourceMappingURL=wordpress_header.css.map */
