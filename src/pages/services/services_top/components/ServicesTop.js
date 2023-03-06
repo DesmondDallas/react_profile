@@ -11,8 +11,12 @@ function Serve() {
               <span>What I do</span>
             </h3>
           </div>
-          <h1>Services</h1>
-          <h4>Web Development & Design</h4>
+          <div className="collapse_text">
+            <h1 className="anim1">Services</h1>
+          </div>
+          <div className="collapse_text">
+            <h4 className="anim2">Web Development & Design</h4>
+            </div>
           {<br></br>}
           <div className="collapse_text">
             <p className="anim1">
@@ -34,9 +38,6 @@ function Serve() {
         <div className="card_vertical right_left">
           <div className="card_front card_img1">
             <div className="card_overlay border_1"></div>
-            <div className="card_1 collapse_text">
-              <p className="anim1">Wordpress</p>
-            </div>
           </div>
         </div>
 
@@ -44,10 +45,10 @@ function Serve() {
           <div className="card_front card_img2">
             <div className="card_overlay border_1"></div>
             <div>
-              <p className="first_p">React</p>
-              <h3>
+              <h4>React</h4>
+              <p>
                 Building Robust Websites <br></br> since 2020
-              </h3>
+              </p>
             </div>
             <div className="second_p">
               <p>PROFESSIONAL WEB DEVELOPER SINCE 2013</p>

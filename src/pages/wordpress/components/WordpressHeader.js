@@ -9,14 +9,20 @@ const WordpressHeader = () => {
     //className={WordMod.headSec}
     <div id="header_section">
       <div class="header_section_left">
-        <h1>Desmond Dallas</h1>
-        <h3>HTML, CSS & Javascript Developer</h3>
-        <p>
+        <div className="collapse_text">
+          <h1 className="anim3">Desmond Dallas</h1>
+        </div>
+        <div className="collapse_text">
+          <h3 className="anim2">HTML, CSS & Javascript Developer</h3>
+          </div>
+        <div className="collapse_text">
+        <p className="anim1">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
           quas id illo, magni ipsa veritatis sit fuga doloribus, porro voluptas
           maxime optio ducimus hic recusandae perspiciatis dolorum minima, sint
           officia.
-        </p>
+          </p>
+          </div>
         <Button>
           <a href="https://www.facebook.com">
             <ButtonLabel>Contact Me</ButtonLabel>

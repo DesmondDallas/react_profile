@@ -10,7 +10,7 @@
   background-image: url('/Images/hoodie2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 10px;
+  background-position: 0px;
   background-attachment: fixed;
   height: 100vh
 }
@@ -144,6 +144,14 @@ input[type=submit]:hover {
   #form>div:nth-of-type(2) {
     width: 60%;
   }
+}
+
+@media only screen and (max-width: 769px) {
+  #form {
+  background-position: -128px;
+  background-attachment: fixed;
+  height: 100vh
+}
 }
 
 /*** FORM MIDDLE **/

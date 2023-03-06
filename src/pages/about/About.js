@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="aboutPage">
       <div id="about">
-        <div class="iframe-container">
+        <div className="iframe-container">
           <iframe
             id="video"
             title="About Code To Program"
@@ -13,9 +13,9 @@ function About() {
             src="https://www.youtube.com/embed/tgbNymZ7vqY"
           ></iframe>
         </div>
-        <div class="about_top_container">
-          <div class="about_top_inner">
-            <div class="about_top_menu">
+        <div className="about_top_container">
+          <div className="about_top_inner">
+            <div className="about_top_menu">
               <div>
                 <h1>
                   Hello.{<br></br>}
@@ -25,26 +25,26 @@ function About() {
                   <span>Web Design & Developer</span>
                 </p>
               </div>
-              <div class="about_top_menu_inner">
-                <li class="numbered_heading">
+              <div className="about_top_menu_inner">
+                <li className="numbered_heading">
                   <a
                     href="https://study.com/academy/lesson/how-to-write-a-program-coding-testing-debugging.html"
                     data-info="CTP"
-                    class="about-contact-button"
+                    className="about-contact-button"
                   >
                     Resume
                   </a>
                 </li>
               </div>
               <div>
-                <li class="numbered_heading">
+                <li className="numbered_heading">
                   <a href="https://study.com/academy/lesson/how-to-write-a-program-coding-testing-debugging.html">
                     Portfolio
                   </a>
                 </li>
               </div>
               <div>
-                <li class="numbered_heading">
+                <li className="numbered_heading">
                   <a
                     href="https://study.com/academy/lesson/how-to-write-a-program-coding-testing-debugging.html"
                     id="modalBtn"
@@ -56,10 +56,10 @@ function About() {
             </div>
           </div>
 
-          <div id="myModal" class="modal">
-            <div class="modal-content">
-              <div class="modal-exit-btn">
-                <span class="close">&times;</span>
+          <div id="myModal" className="modal">
+            <div className="modal-content">
+              <div className="modal-exit-btn">
+                <span className="close">&times;</span>
                 <p>Exit video</p>
               </div>
               <iframe
@@ -73,14 +73,14 @@ function About() {
             </div>
           </div>
 
-          <div class="about_bottom_content">
+          <div className="about_bottom_content">
             <p>Freelancer Available for hire</p>
             <div>
               <ul>
                 <li>
                   <span>T:</span> +44 7485 673802
                 </li>
-                <li class="mail">
+                <li className="mail">
                   <a href="mailto:dallas.desmond1@gmail.com">
                     E: <span>Web.Developer@gmail.com</span>
                   </a>
@@ -92,17 +92,17 @@ function About() {
       </div>
 
       <section id="my_skills" className="height_100">
-        <div class="my_skills_text">
+        <div className="my_skills_text">
           <span id="letter_a">A</span>
           <span>r</span>
           <span>t </span>
           <span>o</span>
           <span>f </span>
-          <span class="letter_c">C</span>ode
+          <span className="letter_c">C</span>ode
         </div>
 
-        <div class="page_skills_left">
-          <div class="page_skills_left_inner">
+        <div className="page_skills_left">
+          <div className="page_skills_left_inner">
             <h2 className="page_skills_left_title">
               Self-taught web developer
             </h2>
@@ -126,9 +126,9 @@ function About() {
           </div>
         </div>
 
-        <div class="page_skills_right">
-          <div class="page_skills_inner_right">
-            <div class="page_skills_box item2">
+        <div className="page_skills_right">
+          <div className="page_skills_inner_right">
+            <div className="page_skills_box item2">
               <h2>Skills & Experience</h2>
               <h4>
                 Pro since: <time>2022</time>
@@ -139,29 +139,29 @@ function About() {
                 ipsum dolor sit amet consectetur adipisicing elit. Magni
                 incidunt quidem corrupti dignissimos eum optio voluptas.
               </p>
-              <div class="skills_meter">
-                <div class="skills_meter_inner">
-                  <div class="skills_meter_box">
+              <div className="skills_meter">
+                <div className="skills_meter_inner">
+                  <div className="skills_meter_box">
                     <p>HTML</p>
-                    <div class="skills_meter_box_inner meter_red">
+                    <div className="skills_meter_box_inner meter_red">
                       <span></span>
                     </div>
                   </div>
-                  <div class="skills_meter_box">
+                  <div className="skills_meter_box">
                     <p>CSS</p>
-                    <div class="skills_meter_box_inner meter_blue">
+                    <div className="skills_meter_box_inner meter_blue">
                       <span></span>
                     </div>
                   </div>
-                  <div class="skills_meter_box">
+                  <div className="skills_meter_box">
                     <p>PHP</p>
-                    <div class="skills_meter_box_inner meter_orange">
+                    <div className="skills_meter_box_inner meter_orange">
                       <span></span>
                     </div>
                   </div>
-                  <div class="skills_meter_box meter_violet">
+                  <div className="skills_meter_box meter_violet">
                     <p>Javascript</p>
-                    <div class="skills_meter_box_inner">
+                    <div className="skills_meter_box_inner">
                       <span></span>
                     </div>
                   </div>
