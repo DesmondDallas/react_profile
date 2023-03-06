@@ -16,7 +16,9 @@ function Navbar() {
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
       <nav className="navbar" onClick={(e) => e.stopPropagation()}>
         <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
+          <NavLink exact to="/" activeClassName="active"
+            onClick={click ? handleClick : null}
+            className="nav-logo nav-links">
             <img src={pic} alt="logoImg"></img>
           </NavLink>
 
