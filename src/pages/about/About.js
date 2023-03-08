@@ -25,17 +25,18 @@ function About() {
                   <span>Web Design & Developer</span>
                 </p>
               </div>
+
               <div className="about_top_menu_inner">
                 <li className="numbered_heading">
                   <a
                     href="https://study.com/academy/lesson/how-to-write-a-program-coding-testing-debugging.html"
                     data-info="CTP"
-                    className="about-contact-button"
-                  >
+                    className="about-contact-button">
                     Resume
                   </a>
                 </li>
               </div>
+
               <div>
                 <li className="numbered_heading">
                   <a href="https://study.com/academy/lesson/how-to-write-a-program-coding-testing-debugging.html">
@@ -43,12 +44,11 @@ function About() {
                   </a>
                 </li>
               </div>
+
               <div>
                 <li className="numbered_heading">
                   <a
-                    href="https://study.com/academy/lesson/how-to-write-a-program-coding-testing-debugging.html"
-                    id="modalBtn"
-                  >
+                    href="https://study.com/academy/lesson/how-to-write-a-program-coding-testing-debugging.html" id="modalBtn">
                     Video
                   </a>
                 </li>
