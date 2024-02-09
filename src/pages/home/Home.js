@@ -71,7 +71,7 @@ function Home() {
               type="submit"
               id="submit"
               value="Submit"
-              href="http://www.codetoprogram.com"
+              href="http://www.test.com"
             ></input>
           </form>
         </div>

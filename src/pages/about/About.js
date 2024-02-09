@@ -19,7 +19,7 @@ function About() {
               <div>
                 <h1>
                   Hello.{<br></br>}
-                  I'm Desmond Dallas
+                  I'm Test name
                 </h1>
                 <p>
                   <span>Web Design & Developer</span>
@@ -78,11 +78,11 @@ function About() {
             <div>
               <ul>
                 <li>
-                  <span>T:</span> +44 7485 673802
+                  <span>T:</span> +44 7000 00000
                 </li>
                 <li className="mail">
                   <a href="mailto:dallas.desmond1@gmail.com">
-                    E: <span>Web.Developer@gmail.com</span>
+                    E: <span>Test@gmail.com</span>
                   </a>
                 </li>
               </ul>
